@@ -53,9 +53,9 @@ def merge_institue_image(logo_C, logo_I):
 
     return new_im
 
-logo_TU = Image.open("../logo.png")
-logo_OET = Image.open("logo_OET.png")
-logo_I = Image.open("../logo_int.png")
+logo_TU = Image.open(r"C:\Users\Shiris Dhakal\Desktop\PyPSA\data-science-for-esm\data-science-for-esm\logo.png")
+logo_OET = Image.open(r"C:\Users\Shiris Dhakal\Desktop\PyPSA\data-science-for-esm\data-science-for-esm\oet-extension\logo_OET.png")
+logo_I = Image.open(r"C:\Users\Shiris Dhakal\Desktop\PyPSA\data-science-for-esm\data-science-for-esm\logo_int.png")
 
 logo_C = create_contribution_image(logo_TU, logo_OET)
 logo = merge_institue_image(logo_C, logo_I)
